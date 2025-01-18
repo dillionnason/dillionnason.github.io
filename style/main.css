@@ -1,0 +1,82 @@
+body {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	border: 7px;
+	border-style: ridge;
+	background-image: url(../assets/background.gif);
+	background-repeat: repeat;
+}
+
+header, footer{
+	height: 125px;
+	margin: auto;
+	background-image: url(../assets/header-background.jpg);
+	background-repeat: repeat;
+}
+
+header {
+	border-bottom: 5px;
+	border-bottom-style: ridge;
+}
+
+footer {
+	border-top: 5px;
+	border-top-style: ridge;
+}
+
+.header-title {
+	margin: 0.8em 0.8em 0 0.8em;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	color: white;
+}
+
+.content-container {
+	background-color: beige;
+}
+
+.centered-content {
+	text-align: center;
+}
+
+.text-content {
+	margin: 0;
+	padding: 1em;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	max-width: 80em;
+}
+
+#cat {
+	margin: 10px;
+	border: 5px;
+	border-style: ridge;
+}
+
+figure {
+	margin: 0;
+	padding: 5px;
+}
+
+figurecaption {
+	display: inherit;
+	font-family: "Arial", sans-serif;
+}
+
+.footer-links {
+	display: block;
+	margin-top: 5px;
+}
+
+.footer-link {
+	padding: 0.5em 0 0 1em;
+	list-style-type: none;
+}
+
+.link {
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+	color: white;
+}
